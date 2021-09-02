@@ -38,8 +38,8 @@ const displayBook = data => {
     data.docs.forEach(item => {
         let bookSrc = `https://covers.openlibrary.org/b/id/${item.cover_i}-M.jpg`
         if (item.cover_i === undefined) {
-            bookSrc = `https://png.pngtree.com/thumb_back/fw800/back_pic/04/53/12/2658610613de2a7.jpg`
-            
+            //bookSrc = `https://png.pngtree.com/thumb_back/fw800/back_pic/04/53/12/2658610613de2a7.jpg`
+            bookSrc = `https://www.creativelogodesigners.com/wp-content/uploads/2014/11/6804-icons-book-reading.png`
             }
         // check whether author name found or not
         let authorSrc = item.author_name
